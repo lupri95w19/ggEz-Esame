@@ -1,0 +1,2624 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto; 
+    /*max-width: 550px;*/
+    background-color: rgb(180, 180, 180);
+    width: 1920px;
+    
+}
+
+.sopra{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.sopran{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+
+}
+
+.container12
+{
+    margin-top: 31px;
+}
+
+
+/*paragrafo sotto la foto*/
+p{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    padding-bottom: 75px;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+}
+
+p.margini{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 75px; /*186 oppure*/
+    margin-left: 362px;
+    margin-right: 362px;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+}
+/*forse ha a che fare con le cards*/
+/*.container {
+    width: 1920px; /*da sistemare*/
+    /*margin: auto;
+    padding: 20px,;
+    text-align: center;
+}*/
+
+.container {
+    
+    margin-left: 362px;
+    margin-right: 362px;
+    padding: 20px,;
+    text-align: center;
+}
+
+/*home e chi siamo*/
+header a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+header a:hover{
+    color: rgb(235, 19, 19);
+    text-decoration: underline;
+}
+
+
+header ul{
+    margin 0;
+    list-style-type: none;
+}
+
+header li{
+    display: inline;
+}
+
+/*non so a che serve*/
+section hero{
+    background-color: fff;
+    text-align: center;
+}
+
+section.hero h1 {
+    margin: 0;
+    padding: 40px 0;
+    font-size: 70px;
+    text-align: center;
+}
+
+/* griglie e cards*/
+main div.card{
+    margin-bottom: 289px;
+}
+
+/* griglie e cards*/
+main{
+    margin: 20px 20px;
+    display: grid;
+    grid-template-columns:repeat(3,376px); /*le immagini così vanno automaticamente a capo*/
+    /*posso scrivere repeat(4, 1fr); senza minmax però*/
+    /*oppure 1fr 1fr 1fr 1fr ma senza minmax però*/
+    grid-template-columns: max-content 3;
+    object-fit: fill;
+    column-gap: 33px;
+    max-width: 50%;
+    max-height: 50%;
+
+}
+
+
+
+main div{
+    background: #fff; /*bianco cards*/
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    object-fit: cover;
+    /*display: grid;
+    grid-template-columns: repeat(2, 1fr);*/
+    
+}
+
+main div.card h2{
+    margin: 0;
+    padding: 20px 20px 4px 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    background-color: #3B2E00;
+    height: 41px;
+    color: white;
+}
+
+main div.card h2:hover {
+    color: rgb(235, 19, 19);
+    text-decoration: underline;
+}
+
+main div.card p{
+    margin 0;
+    padding: 0 20px 20px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    height: 242px;
+    
+    
+}
+
+.foot:hover{
+    color:red
+}
+
+.container2 {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-position: center;
+    
+}
+
+prova{
+    margin: 20px 20px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(37px,1fr)); /*le immagini così vanno automaticamente a capo*/
+    /*posso scrivere repeat(4, 1fr); senza minmax però*/
+    /*oppure 1fr 1fr 1fr 1fr ma senza minmax però*/
+    grid-template-rows: max-content 3;
+    object-fit: fill;
+    column-gap: 71px;
+    margin-top: 289px;
+    margin-bottom: 12px;
+}
+
+prova div.card{
+    margin-bottom: 29px;
+}
+
+
+footer {
+    background-color: rgb(29, 29, 29);
+    /*text-align: center;*/
+    height: 184px;
+}
+
+
+/*
+footer p {
+    margin: 0;
+}
+*/
+
+/*div class.card {
+    width: 1200px;
+    
+}
+*/
+
+div h1{
+    
+        width: 1200px;
+       
+        text-align: center;
+        padding: 10px;
+        width: 1200px;
+    }
+
+
+
+.prova{
+    text-align: left;
+    padding: 0px 362px 0px 362px;
+    font-size: 320pt
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main div.card img{
+    height: 350px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/*cards superiori*/
+main div.card1{
+    margin-bottom: 289px;
+
+}
+
+.acard{
+    text-decoration: none;
+    color: white;
+}
+
+.acard:hover{
+    text-decoration: none;
+    transition: 1s ease;
+    text-shadow: 0px 0px 20px white;
+    
+}
+
+main div.card1 h2:hover{
+    color: rgb(235, 19, 19);
+    text-decoration: underline;
+}
+main div.card1 p{
+    margin 0;
+    padding: 0 20px 20px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    height: 242px;
+    
+}
+div class.card1 {
+    width: 1200px;
+    
+}
+
+/*------------------------------------------------------------------------------*/
+
+
+
+.immagini{
+    width: 1196px;
+    height: 808px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 262px;
+}
+
+.immaginifine{
+    width: 1196px;
+    height: 808px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 289px;
+}
+
+.immaginicrafting{
+    width: 392px;
+    height: 353px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 289px;
+}
+
+.immaginicraftingcapsula{
+    width: 363px;
+    height: 567px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 289px;
+}
+
+
+
+a.lane:hover{
+    text-decoration: none;
+    color: red;
+}
+p.lane1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 75px;
+    margin-bottom: 150px;
+    margin-left:362px;
+    margin-right:362px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h.campi{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    margin-right: 112px;
+    margin-top: 214px;
+    margin-left:362px;
+    margin-right:362px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h.campibot{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    margin-left:362px;
+    margin-right:362px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+p.neutrali{
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    margin-left:362px;
+    margin-right:362px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+br{
+    margin-bottom: 75px;
+}
+
+.immagini1{
+    width: 1196px;
+    height: 808px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 262px;
+    object-fit: cover;
+}
+
+/*
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+margin-right: 112px;
+margin-top: 214px;
+*/
+
+
+.noip{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 362px;
+    margin-right: 362px;
+    margin-top: 214px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vricompense{
+    width: 794px;
+    height: 446px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 289px;
+}
+
+.immaginicraftingcapsulaprime{
+    width: 424px;
+    height: 567px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: scale-down;
+    margin-bottom: 289px;
+}
+
+.immaginicraftingcapsulaete{
+    width: 595px;
+    height: 597px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: scale-down;
+    margin-bottom: 289px;
+}
+
+br{
+    display: block;
+    margin-bottom: 750px;
+}
+
+p.laneh{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    padding-top: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 362px;
+    margin-right: 362px;
+}
+
+.immaginiporo{
+    width: 1196px;
+    height: 808px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 289px;
+    margin-top: 75px;
+}
+
+a.lane{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 75px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.siti{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    padding-top: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 362px;
+    margin-right: 362px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.lane:hover{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 75px;
+    text-decoration: none;
+    color: red;
+}
+
+a.siti:hover{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 75px;
+    text-decoration: none;
+    color: red;
+}
+
+.mappa{
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 68px;
+    margin-bottom: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 362px;
+    margin-right: 362px;
+}
+
+.immaginipadd{
+        width: 1196px;
+        height: 808px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 262px;
+        margin-top: 75px;
+}
+
+.immaginipad75{
+    width: 1196px;
+    height: 808px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 75px;
+}
+
+.immaginipad289{
+    width: 1196px;
+    height: 808px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 289px;
+}
+
+.immagininopaddb{
+    width: 1196px;
+    height: 808px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 75px;
+}
+
+/*
+*/
+
+.summoners{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 75px;
+    margin-left:362px;
+    margin-right:362px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sums{
+    position: absolute;
+    width: 92px;
+    height: 91px;
+    left: 504px;
+    top: 1332px;
+    margin-bottom: 262px;
+    margin-top: 75px;
+    
+}
+
+/*main div.cardsums{
+    margin-bottom: 75px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 grey;
+    background-color: rgb(180, 180, 180);
+}*/
+
+main div.cardsums{
+    margin-bottom: 75px;
+    width: 378px;
+    height: 519px;
+}
+
+/*.containersums {
+    width: 378px;
+    height: 353px;
+    margin: auto;
+    padding: 20px,;
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 130px;
+    display: grid;
+    grid-template-columns:4fr;
+    display: grid;
+}*/
+
+.containersums{
+    grid-template-columns:repeat(3,minmax(376px,1fr));
+    display: grid;
+    margin-left: 356px;
+    margin-right: 356px;
+    column-gap: 27px;
+    width: 310px;
+
+}
+
+main div.cardsums h2{
+    margin: 0;
+    padding: 20px 20px 4px 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    background-color: #3B2E00;
+    height: 41px;
+    color: white;
+}
+
+div class.cardsums {
+    display: block;
+    width: 1200px;
+
+}
+.cardsumsimg{
+    width: 92px;
+    height: 92px;
+    object-fit:cover;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 75px;
+}
+
+main div.cardsums p{
+    margin 0;
+    padding: 0 20px 20px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    height: 100%px;
+    padding-bottom: 48x;
+}
+
+
+.immaginiyt{
+    width: 794px;
+    height: 446px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lanehover{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    text-decoration: none;
+    color: rgb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 362px;
+    margin-right: 362px;
+}
+
+.lanehover a{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 75px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 362px;
+    margin-right: 362px;
+}
+
+.lanehover a:hover{
+    color: rgb(235, 19, 19);
+}
+
+/*
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1920px){
+
+.sopra{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    max-width: 100%;
+    justify-content: space-between;
+    display: inline;
+    margin-right: 2px;
+    max-height: 500px;
+    max-width: 100%;
+    
+}
+.sopran{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+
+}
+
+
+
+h.mappa{
+    font-weight: 400;
+    font-size: 56px; /*56 prima*/
+    line-height: 68px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 362px;
+    margin-right: 362px;
+    object-position: center;
+}
+
+.container12{
+margin-top: 16px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+.foot:hover{
+    color:red
+}
+
+.container2{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    object-position: center;
+    
+}
+
+prova{
+    margin-left: auto;
+    margin-right: auto;
+    object-position: center;
+    grid-template-columns:repeat(auto-fit,minmax(246px,1fr)); /*le immagini così vanno automaticamente a capo*/
+    /*posso scrivere repeat(4, 1fr); senza minmax però*/
+    /*oppure 1fr 1fr 1fr 1fr ma senza minmax però*/
+    grid-template-rows: max-content 3;
+    object-fit: fill;
+    column-gap: 71px;
+    row-gap: 25px;
+    margin-top: 289px; /*289*/
+    margin-bottom: 6px; /*12*/
+    margin-right: auto;
+    margin-left: auto;
+    grid-auto-columns: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2px, 1fr));
+    max-height: 100%;
+    /*grid-template-columns: repeat(auto-fit, minmax(min(100%/3, max(64px, 100%/3)), 1fr));*/
+}    
+/*a.foot{
+        padding-bottom: 10px;
+    }*/
+prova div.card{
+    margin-bottom: 31px;
+    max-width: 100%;
+    column-count: auto;
+    column-gap: 46px;
+    column-width: 246px;
+}
+
+a.siti{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    padding-top: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 362px;
+    margin-right: 362px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.siti:hover{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 75px;
+    text-decoration: underline;
+    color: red;
+}
+
+.immaginifine{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 100%;
+}
+
+.immaginipadd{
+    width: 50%; /*1996*/
+    height: 50%; /*808*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 131px; /*262*/
+    margin-top: 37px; /*75*/
+}
+}
+
+@media (max-width:1920px){
+
+.noiimmagini{
+max-width: 10%;
+max-height: 10%;
+margin-top: 75px; /*prima 75*/
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.container12{
+
+    margin-top: 16px;
+    margin-left: 363px;
+    margin-right: 363px;
+    object-position: center;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:2560px) {
+
+    
+    .sopra{
+        font-weight: 400;
+        font-size: 24px; /*24*/
+        line-height: 140%;
+        max-width: 100%;
+        justify-content: space-between;
+        display: inline;
+        margin-right: 2px;
+        max-height: 500px;
+        max-width: 100%;
+        
+    }
+    .sopran{
+        font-weight: 400;
+        font-size: 32px; /*32*/
+        line-height: 140%;
+    
+    }
+
+    .container12
+    {
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    
+    }
+
+    h2.foot{
+        margin-bottom: 12px;
+    }
+
+
+    .foot:hover{
+        color:red
+    }
+    
+    .container2{
+        margin-left: auto; /*provare 25*/
+        margin-right: auto;
+        max-width: 100%;
+        object-position: center;      
+        
+    }
+    
+    prova{
+        margin: 20px 20px;
+        display: grid;
+        grid-template-columns:repeat(auto-fit,minmax(18px,1fr)); /*le immagini così vanno automaticamente a capo*/
+        /*posso scrivere repeat(4, 1fr); senza minmax però*/
+        /*oppure 1fr 1fr 1fr 1fr ma senza minmax però*/
+        grid-template-rows: max-content 3;
+        object-fit: fill;
+        column-gap: 71px;
+        row-gap: 25px;
+        margin-top: 144px; /*289*/
+        margin-bottom: 6px; /*12*/
+        margin-right: auto;
+        margin-left: auto;
+        grid-auto-columns: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(2px, 1fr));
+        max-width: 100px;
+        max-height: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%/3, max(64px, 100%/3)), 1fr));
+    }
+    
+    prova div.card{
+        margin-bottom: 29px;
+        max-width: 75%;column-count: 3;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100px, max(200px)), 1fr));
+        column-gap: 200px;
+        /*margin-left: 25%;
+        margin-right: 25%;*/
+
+    }
+
+    p.margini{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        padding-bottom: 37px; /*75px prima*/
+        text-align: left;
+        /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+        margin-left: auto;
+        margin-right: auto;
+        object-position: center;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    
+    main div.card h2{
+        margin: 0;
+        padding: 20px 20px 4px 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 140%;
+        background-color: #3B2E00;
+        height: 41px;
+    }
+    
+    main div.card h2:hover {
+        color: rgb(235, 19, 19);
+        text-decoration: underline;
+    }
+    
+    main div.card p{
+        margin 0;
+        padding: 0 20px 20px 20px;
+        font-weight: 14px; /*50%*/
+        font-size: 10px;
+        line-height: 140%;
+        /*height: 121px; da provare alternando la font size*/
+        height: 200px;
+        background-color: rgb(252, 252, 252);
+    }
+    
+    main div.card img{
+        max-width: 100%;
+        height: 50%;
+        object-fit: cover;
+        margin-bottom: none;
+        
+    }
+    
+    
+    /*cards superiori*/
+    main div.card1{
+        margin-top: 36px; /*289 prima per test ora 28*/
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        margin-bottom: 20px;
+        
+        
+    }
+
+
+    main div.card1 p{
+        margin 0;
+        padding: 0 20px 20px 20px;
+        font-weight: 50%;
+        font-size: 14px; /*75%*/
+        /*height: 121px; da provare alternando la font size*/
+        height: 250px; /*prima era il doppio*/
+
+    }
+    main div.card {
+        object-position: center;
+        margin-top: 36px; /*289 prima per test ora 28*/
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+        margin-bottom: 20px;
+        margin-left: 25%;
+        margin-right: 25%;
+        
+    }
+    
+    .acard:hover{
+        text-decoration: none;
+        color: red;
+    }
+
+
+h.mappa{
+        font-weight: 400;
+        font-size: 28px; /*56 prima*/
+        line-height: 68px;
+        margin-bottom: 75px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        object-position: center;
+        margin-left: 25%;
+        margin-right: 25%;
+}
+
+.immaginipadd{
+        width: 50%; /*1996*/
+        height: 50%; /*808*/
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 131px; /*262*/
+        margin-top: 37px; /*75*/
+        margin-left: 25%;
+        margin-right: 25%;
+}
+
+p.noip{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+
+{
+    width: 70px; /*70*69*/
+    height: 69px;
+}
+
+
+a.lane{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 75px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-s;
+}
+
+
+a.lane:hover{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 75px;
+        text-decoration: underline;
+        color: red;
+}
+
+/* al momento non usato
+p.lane1{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 29px;
+    margin-top: 37px; /*75*/
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px; /*150*/
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/
+
+.immaginicrafting{
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 289px; /*289*/
+}
+
+.immaginicraftingcapsula{
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 289px;
+}
+
+.vricompense{
+    width: 40%; /*794*/
+    height: 446px; /*446*/
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 214px; /*289*/
+}
+
+.immaginicraftingcapsulaprime{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: scale-down;
+    margin-bottom: 289px;
+}
+
+.immaginicraftingcapsulaete{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: scale-down;
+    margin-bottom: 283px;
+}
+
+.immaginiporo{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0px; /*289*/
+    margin-top: 38px; /*75*/
+}
+
+.immaginipadd{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 75px; /*262*/
+    margin-top: 38px; /*75 o 186full*/
+}
+
+.immaginipad75{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 75px; /*75*/
+}
+
+.immaginipad289{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 75px; /*289*/
+}
+
+.immagininopaddb{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 37px; /*75*/
+    margin-bottom: 288px;
+}
+
+a.siti{
+    font-weight: 400;
+    font-size: 28px; /*28*/
+    line-height: 34px;
+    padding-top: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-decoration: none;
+    color: black;
+}
+a.siti:hover{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 75px;
+    text-decoration: underline;
+    color: red;
+}
+
+.immaginiyt{
+    width: 40%;
+    height: 50%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 289px; /*289*/
+}
+
+.immaginifine{
+    width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 262px;
+}
+
+.immagini{
+    width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 262px; /*262*/
+}
+
+.immaginiminion{
+    width: 353px;
+    height: 353px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 75px;
+}
+
+.immaginiminion2{
+    width: 488px;
+    height: 353px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 75px;
+}
+
+.immaginitorre{
+    width: 365px;
+    height: 567px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 50%; /*262*/
+    object-fit: cover;
+    margin-bottom: 289px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1920px) {
+
+
+    
+    .sopra{
+        font-weight: 400;
+        font-size: 10px; /*24*/
+        line-height: 140%;
+        max-width: 100%;
+        justify-content: space-between;
+        display: inline;
+        margin-right: 2px;
+        max-height: 500px;
+        max-width: 100%;
+        
+    }
+    .sopran{
+        font-weight: 400;
+        font-size: 12px; /*32*/
+        line-height: 140%;
+    
+    }
+
+    .container12
+    {
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    
+    }
+    
+    h2.foot{
+        margin-bottom: 12px;
+    }
+
+
+    
+    .container2{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        object-position: center;        
+        
+    }
+    
+    prova{
+        margin: 20px 20px;
+        display: grid;
+        grid-template-columns:repeat(auto-fit,minmax(18px,1fr)); /*le immagini così vanno automaticamente a capo*/
+        /*posso scrivere repeat(4, 1fr); senza minmax però*/
+        /*oppure 1fr 1fr 1fr 1fr ma senza minmax però*/
+        grid-template-rows: max-content 2;
+        object-fit: fill;
+        column-gap: 71px;
+        row-gap: 25px;
+        margin-top: 144px; /*289*/
+        margin-bottom: 6px; /*12*/
+        margin-right: auto;
+        margin-left: auto;
+        grid-auto-columns: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(2px, 1fr));
+        max-width: 100px;
+        max-height: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%/3, max(64px, 100%/3)), 1fr));
+    }
+    
+    prova div.card{
+        margin-bottom: 29px;
+        max-width: 75%;column-count: 3;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(500%/3, max(100px, 100%/4)), 1fr));
+        
+    }
+
+    p.margini{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        font-size: 75%;
+        line-height: 19px;
+        padding-bottom: 37px; /*75px prima*/
+        text-align: left;
+        /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+        margin-left: auto;
+        margin-right: auto;
+        object-position: center;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    
+    main div.card h2{
+        margin: 0;
+        padding: 20px 20px 4px 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 140%;
+        background-color: #3B2E00;
+        height: 41px;
+    }
+    
+    main div.card h2:hover {
+        color: rgb(235, 19, 19);
+        text-decoration: underline;
+    }
+    
+    main div.card p{
+        margin 0;
+        padding: 0 20px 20px 20px;
+        font-weight: 50%;
+        font-size: 75%;
+        line-height: 140%;
+        /*height: 121px; da provare alternando la font size*/
+        height: 200px;
+        background-color: rgb(252, 252, 252);
+    }
+    
+    main div.card img{
+        max-width: 100%;
+        height: 50%;
+        object-fit: cover;
+        margin-bottom: none;
+        
+    }
+    
+    
+    /*cards superiori*/
+    main div.card1{
+        margin-top: 36px; /*289 prima per test ora 28*/
+        margin-left: auto;
+        margin-right: auto
+        max-width: 50%;
+        margin-bottom: 20px;
+        
+        
+    }
+
+
+    main div.card1 p{
+        margin 0;
+        padding: 0 20px 20px 20px;
+        font-weight: 50%;
+        font-size: 75%;
+        /*height: 121px; da provare alternando la font size*/
+        height: 250px; /*prima era il doppio*/
+
+    }
+    main div.card {
+        object-position: center;
+        margin-top: 36px; /*289 prima per test ora 28*/
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+        margin-bottom: 20px;
+        margin-left: 25%;
+        margin-right: 25%;
+        
+    }
+
+    
+    .acard:hover{
+        text-decoration: none;
+        color: red;
+    }
+
+
+h.mappa{
+        font-weight: 400;
+        font-size: 28px; /*56 prima*/
+        line-height: 68px;
+        margin-bottom: 75px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        object-position: center;
+        margin-left: 25%;
+        margin-right: 25%;
+}
+
+.immaginipadd{
+        width: 50%; /*1996*/
+        height: 50%; /*808*/
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 131px; /*262*/
+        margin-top: 37px; /*75*/
+        margin-left: 25%;
+        margin-right: 25%;
+}
+
+p.noip{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+a.lane{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 29px;
+    margin-top: 75px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-s;
+}
+
+
+a.lane:hover{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 29px;
+        margin-top: 75px;
+        text-decoration: underline;
+        color: red;
+}
+
+/* al momento non usato
+p.lane1{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 29px;
+    margin-top: 37px; /*75*/
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px; /*150*/
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/
+
+.immaginicrafting{
+    width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 289px; /*289*/
+}
+
+.immaginicraftingcapsula{
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 289px;
+}
+
+.vricompense{
+    width: 40%; /*794*/
+    height: 446px; /*446*/
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 214px; /*289*/
+}
+
+.immaginicraftingcapsulaprime{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: scale-down;
+    margin-bottom: 289px;
+}
+
+.immaginicraftingcapsulaete{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: scale-down;
+    margin-bottom: 283px;
+}
+
+.immaginiporo{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0px; /*289*/
+    margin-top: 38px; /*75*/
+}
+
+.immaginipadd{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 75px; /*262*/
+    margin-top: 38px; /*75 o 186full*/
+}
+
+.immaginipad75{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 75px; /*75*/
+}
+
+.immaginipad289{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 75px; /*289*/
+}
+
+.immagininopaddb{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 37px; /*75*/
+    margin-bottom: 288px;
+}
+
+a.siti{
+    font-weight: 400;
+    font-size: 14px; /*28*/
+    line-height: 34px;
+    padding-top: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-decoration: none;
+    color: black;
+}
+a.siti:hover{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+    margin-top: 75px;
+    text-decoration: underline;
+    color: red;
+}
+
+.immaginiyt{
+    width: 40%;
+    height: 50%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 289px; /*289*/
+}
+
+.immaginifine{
+    width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 262px;
+}
+
+.immagini{
+    width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 262px; /*262*/
+}
+
+.immaginiminion{
+    width: 353px;
+    height: 353px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 75px;
+    object-fit: cover;
+}
+.immaginiminion2{
+    width: 488px;
+    height: 353px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 50%; /*262*/
+    object-fit: cover;
+    margin-bottom: 289px;
+}
+.immaginitorre{
+    width: 365px;
+    height: 567px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 50%; /*262*/
+    object-fit: cover;
+    margin-bottom: 289px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:960px) {
+
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0 auto; 
+        /*max-width: 550px;*/
+        background-color: rgb(180, 180, 180);
+        max-width: 50%;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(29, 29, 29);
+        /*padding: 20px;*/
+        max-width:100%;
+        height: 40px; /* height: 92px;*/
+        margin: auto;
+    }
+
+    img.banner{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 37px; /*75*/
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+    }
+
+    section img{
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 37px; /*75*/
+        
+    }
+
+    main{
+        margin: 20px 20px;
+        display: block;
+        grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); /*le immagini così vanno automaticamente a capo*/
+        grid-template-columns:repeat(minmax(20px, 1fr))
+        /*posso scrivere repeat(4, 1fr); senza minmax però*/
+        /*oppure 1fr 1fr 1fr 1fr ma senza minmax però*/
+        object-fit: cover;
+        column-gap: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        object-position: center;
+        max-width: 100%;
+        width: 50%;
+        height: 50%;
+    }
+    
+    .sopra{
+        font-weight: 400;
+        font-size: 10px; /*24*/
+        line-height: 140%;
+        max-width: 100%;
+        justify-content: space-between;
+        display: inline;
+        margin-right: 2px;
+        max-height: 500px;
+        max-width: 100%;
+        
+    }
+    .sopran{
+        font-weight: 400;
+        font-size: 12px; /*32*/
+        line-height: 140%;
+    
+    }
+
+    .container12
+    {
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    
+    .container2{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        object-position: center;
+        
+    }
+    
+    prova{
+        margin: 20px 20px;
+        display: grid;
+        grid-template-columns:repeat(auto-fit,minmax(18px,1fr)); /*le immagini così vanno automaticamente a capo*/
+        /*posso scrivere repeat(4, 1fr); senza minmax però*/
+        /*oppure 1fr 1fr 1fr 1fr ma senza minmax però*/
+        grid-template-rows: max-content 2;
+        object-fit: fill;
+        column-gap: 71px;
+        row-gap: 25px;
+        margin-top: 144px; /*289*/
+        margin-bottom: 6px; /*12*/
+        margin-right: auto;
+        margin-left: auto;
+        grid-auto-columns: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(2px, 1fr));
+        max-width: 100px;
+        max-height: 100%;
+    }
+    
+    prova div.card{
+        margin-bottom: 29px;
+        max-width: 75%;column-count: 1;
+    }
+
+    p.margini{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        font-size: 75%;
+        line-height: 19px;
+        padding-bottom: 37px; /*75px prima*/
+        text-align: left;
+        /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+        margin-left: auto;
+        margin-right: auto;
+        object-position: center;
+    }
+    main div{
+        border-radius: 10px;
+        margin-bottom: 20px;
+        text-align: left;
+        object-fit: cover;
+        /*display: grid;
+        grid-template-columns: repeat(2, 1fr);*/
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+
+        
+    }
+    
+    main div.card h2{
+        margin: 0;
+        padding: 20px 20px 4px 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 140%;
+        background-color: #3B2E00;
+        height: 41px;
+    }
+    
+    main div.card h2:hover {
+        color: rgb(235, 19, 19);
+        text-decoration: underline;
+    }
+    
+    main div.card p{
+        margin 0;
+        padding: 0 20px 20px 20px;
+        font-weight: 50%;
+        font-size: 75%;
+        line-height: 140%;
+        /*height: 121px; da provare alternando la font size*/
+        height: 200px;
+        background-color: rgb(252, 252, 252);
+    }
+    
+    main div.card img{
+        max-width: 100%;
+        height: 50%;
+        object-fit: cover;
+        margin-bottom: none;
+        
+    }
+
+    main div.card1 img{
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+    
+    
+    /*cards superiori*/
+    main div.card1{
+        margin-top: 36px; /*289 prima per test ora 28*/
+        margin-left: auto;
+        margin-right: auto
+        max-width: 100%;
+        margin-bottom: 20px;
+        
+    }
+
+    main div.card1 h2{
+        margin: 0;
+        padding: 20px 20px 4px 20px;
+        font-weight: 400;
+        font-size: 15px; /*prima era 20, poi 20 e ora 15 per test*/
+        line-height: 140%;
+        background-color: #3B2E00;
+        height: 41px;
+        color: white;
+    }
+    main div.card1 p{
+        margin 0;
+        padding: 0 20px 20px 20px;
+        font-weight: 50%;
+        font-size: 75%;
+        /*height: 121px; da provare alternando la font size*/
+        height: 250px; /*prima era il doppio*/
+
+    }
+    main div.card {
+        object-position: center;
+        margin-top: 36px; /*289 prima per test ora 28*/
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        margin-bottom: 20px;
+        
+    }
+
+    a.acard{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 34px;
+        text-decoration: none;
+        color: white;
+        max-width: 100%;
+    }
+    
+    .acard:hover{
+        text-decoration: none;
+        color: red;
+    }
+
+    .container{ /*aiuto*/
+        margin-left: auto;
+        margin-right: auto;
+        object-position: center;
+        text-align: center;
+        max-width: 100%;
+        
+    }
+
+    .ved{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    h.ruoli{
+    /*parliamo del titolo all'inizio delle pagine*/
+        font-weight: 400;
+        font-size: 16px; /*prima 32*/
+        line-height: 39px; /*prima era 78*/
+        margin-left: auto;
+        margin-right: auto;
+        object-position: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+h.mappa{
+        font-weight: 400;
+        font-size: 28px; /*56 prima*/
+        line-height: 68px;
+        margin-bottom: 75px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        object-position: center;
+}
+
+.immaginipadd{
+        width: 50%; /*1996*/
+        height: 50%; /*808*/
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 131px; /*262*/
+        margin-top: 37px; /*75*/
+}
+
+.noiimmagini2{
+    width: 25%;
+    height: 25%;
+    margin-top: 37px; /*prima 75*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.noip{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+
+p.lane{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 29px;
+    margin-top: 1px; /*75*/
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.lane{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 29px;
+    margin-top: 75px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-s;
+}
+
+
+a.lane:hover{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 29px;
+        margin-top: 75px;
+        text-decoration: underline;
+        color: red;
+}
+
+/* al momento non usato
+p.lane1{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 29px;
+    margin-top: 37px; /*75*/
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px; /*150*/
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/
+
+.immaginicrafting{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 50%; /*289*/
+}
+
+.immaginicraftingcapsula{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 50%;
+}
+
+.vricompense{
+    width: 400px; /*794*/
+    height: 220px; /*446*/
+    max-width: 70%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50%; /*289*/
+}
+
+.immaginicraftingcapsulaprime{
+    width: 75%;
+    height: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: scale-down;
+    margin-bottom: 50%;
+}
+
+.immaginicraftingcapsulaete{
+    width: 75%;
+    height: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: scale-down;
+    margin-bottom: 50%;
+}
+
+.immaginiporo{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0px; /*289*/
+    margin-top: 38px; /*75*/
+}
+
+.immaginipadd{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 262/2px; /*262*/
+    margin-top: 38px; /*75 o 186full*/
+}
+
+.immaginipad75{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 50%; /*75*/
+}
+
+.immaginipad289{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 50%; /*289*/
+}
+
+.immagininopaddb{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 37px; /*75*/
+}
+
+a.siti{
+    font-weight: 400;
+    font-size: 14px; /*28*/
+    line-height: 34px;
+    padding-top: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a.siti:hover{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+    margin-top: 75px;
+    text-decoration: underline;
+    color: red;
+}
+
+.immaginiyt{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px; /*289*/
+}
+
+.immaginifine{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 50%;
+}
+
+.immagini{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 50%; /*262*/
+}
+
+.immaginiminion{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 50%; /*262*/
+}
+.immaginiminion2{
+    width: 55%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 50%; /*262*/
+}
+
+.immaginitorre{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-fit: cover;
+    margin-bottom: 144px;
+}
+}
